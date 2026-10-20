@@ -14,11 +14,11 @@ Live site: https://PerayaPatt.pythonanywhere.com
 
 ## How it works
 
-- Days left = exam date − today
+- Days left = exam date − today date
 - Minutes per day = (goal − minutes studied) ÷ days left (rounded up)
-- If the exam is today, it avoids dividing by 0 and shows the total minutes remaining
+- If the exam is today, it shows the total minutes remaining
 - If the exam has already passed, or the goal is already reached, minutes per day is not shown
-- Uses Thailand time (Asia/Bangkok) because the server runs on UTC. Without the conversion, the date would be off by one day between 00:00 and 07:00
+- Uses UTC+7. 
 
 ## Built with
 Python, Flask, SQLite, plain HTML/CSS (no framework), and the Mitr font from Google Fonts

@@ -20,9 +20,7 @@ Live site: https://PerayaPatt.pythonanywhere.com
 - If the exam has already passed, or the goal is already reached, minutes per day is not shown
 - Uses Thailand time (Asia/Bangkok) because the server runs on UTC. Without the conversion, the date would be off by one day between 00:00 and 07:00
 
-## Built with
-
-Python, Flask, SQLite, plain HTML/CSS (no framework), and the Mitr font from Google Fonts
+### Built with Python, Flask, SQLite, plain HTML/CSS (no framework), and the Mitr font from Google Fonts
 
 ## Run locally
 

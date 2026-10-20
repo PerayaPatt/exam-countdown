@@ -12,7 +12,7 @@ Live site: https://PerayaPatt.pythonanywhere.com
 - See the days left, your progress, and the minutes you need to study per day
 - Delete subjects you no longer need
 
-## How it's calculated
+## How it works
 
 - Days left = exam date − today
 - Minutes per day = (goal − minutes studied) ÷ days left (rounded up)
